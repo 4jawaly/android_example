@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:padding="8dp">
+
+  
+    <ImageView
+        android:id="@+id/statusIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mobile" 
+        android:padding="5dp"/>
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:padding="2dp"
+        android:layout_toRightOf="@+id/statusIcon" />
+
+      <Button
+          android:id="@+id/confirmButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+
+          android:background="@drawable/red_bg"
+          android:text="@string/confirm"
+          android:textColor="#ffffff" 
+          android:textSize="13sp"
+          android:padding="3dp"/>
+
+</RelativeLayout>

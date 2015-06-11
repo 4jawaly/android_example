@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+	<dimen name="app_base_text_size">22sp</dimen>
+	<dimen name="app_base_text_size_small">22sp</dimen>
+	<dimen name="app_base_text_size_base_small">18sp</dimen>
+	
+	<dimen name="base_textview_padding">10dp</dimen>
+
+	
+	<dimen name="settings_base_margin">20dp</dimen>
+	
+	<dimen name="confirm_dialog_base_padding">20dp</dimen>
+	<dimen name="small_text">16sp</dimen>
+</resources>

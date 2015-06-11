@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="no_connection">No internet connection</string>
+    <string name="error_no_connection">Failed to get data</string>
+    <string name="paypal_notes">The payment is done by using paypal, pay key and pay information</string>
+    <string name="inapp_billang_notes">You have bought the </string>
+    <string name="request_charge">New request charging</string>
+    <string name="payment_choose_methods">Chosen payment method</string>
+    <string name="your_activation_code">Mobile activation code</string>
+    <string name="your_activation_code_email">E-mail activation code</string>
+    <string name="confirm_sender_text">Enter code sent to this number :  </string>
+    <string name="send">send</string>
+    <string name="protection_code">Security Code</string>
+    <string name="sender_name_code">Sender name code</string>
+    <string name="recharge_code">Recharge code</string>
+    <string name="closing_code">Closing code</string>
+    <string name="confirm_btn_codex"> Set as default </string>
+    <string name="confirm">Confirm</string>
+    <string name="error_app_msg">Please check the form for errors</string>
+    <string name="success_app_msg">Saved Successfuly</string>
+
+    <!-- add palance -->
+    <string name="add_palance_title">User  details</string>
+    <string name="add_palance_deposite_data">Payment details </string>
+    <string name="add_palance_deposite_value">Payment amount</string>
+    <string name="add_palance_depositer_name">Payment done under name of :</string>
+    <!-- single ticket -->
+    <string name="Single_ticket_title">Ticket detailes</string>
+    <string name="Single_ticket_type">it has been solved</string>
+    <string name="Single_ticket_close_ticket">Close the ticket</string>
+    <string name="Single_ticket_closed_ticket">Ticket is closed</string>
+    <string name="Single_ticket_add_replay">Add new replay</string>
+    <string name="dialo_add_comment_title">Add replay</string>
+    <string name="dialo_add_comment_title_txt">Add your replay here</string>
+    <string name="dialo_add_comment_message">Comment</string>
+    <string name="dialo_add_comment_btn">Send</string>
+    <string name="dialo_add_comment_confirm_add_message">Plaese add your replay</string>
+    <string name="dialog_add_comment_105">Comment has added successfully </string>
+    <string name="dialog_add_comment_106">Incorrect ticket number.</string>
+    <string name="dialog_add_comment_107">"Ticket is closed, so no comments can be added. </string>
+    <string name="dialog_add_comment_108">Error occurred while sending your comment.د</string>
+    <string name="Single_ticket_close_105">Updated sucssefully.</string>
+    <string name="Single_ticket_close_106">Incorrect ticket number</string>
+    <string name="Single_ticket_close_107"> Incorrect ticket number </string>
+    <string name="add_message_to_favorite_error_118">Empty message</string>
+    <string name="add_message_to_favorite_error_119">Failed to add message</string>
+    <string name="add_message_to_favorite_error_120">Duplicate message</string>
+    <string name="add_message_to_favorite_error_117">The message has been successfully added</string>
+    <string name="error_username_lang">The Name must be English letters without spaces</string>
+    <string name="error_sendername_lang">Sender Name must be only 11 English Letters or 15 number not contains Arabic Letters , in case sender name is number the value of message will discount from you . </string>
+    <!-- upload numbers -->
+    <string name="uplaod_numbers">Upload numbers</string>
+    <string name="uplaod_numbers_title">Upload numbers</string>
+    <string name="uplaod_numbers_text"> Please click on upload button  to upload All of your contacts on this mobile. </string>
+    <string name="uplaod_numbers_code_105">You are not allowed to Send SMS.</string>
+    <string name="uplaod_numbers_code_106">Your Account is not activated.</string>
+    <string name="uplaod_numbers_code_107"> Account is Suspended .</string>
+    <string name="uplaod_numbers_code_108">Account Mobile Not activated.</string>
+    <string name="uplaod_numbers_code_109">Account E-mail Not activated.</string>
+    <string name="uplaod_numbers_code_110"> Group name already exist.</string>
+    <string name="uplaod_numbers_code_111"> Error in Group No. </string>
+    <string name="uplaod_numbers_code_112">Group created successfully.</string>
+    <string name="uplaod_numbers_code_113"> Failed while creating Group!!</string>
+    <string name="uplaod_numbers_numbers_code_113">Number added.</string>
+    <string name="need_confirmation">need to be activated .....  </string>
+    <string name="waitng_acceptance">Waiting activation</string>
+    <string name="refused_sender">Refused.</string>
+    <string name="accepted_sender_name">Activated sender name</string>
+    <string name="new_senders">New names</string>
+    <string name="all_senders">All names</string>
+    <!-- recharge requestrequest recharge -->
+    <string name="request_recharge">Shipping Balance</string>
+    <string name="points_requested">Points required</string>
+    <string name="are_amount_deposited">Are you depositing?</string>
+    <string name="send_request">Send request</string>
+    <string name="deposit_details">Details of deposit</string>
+    <string name="deposit_amount">Values ​​of deposit</string>
+    <string name="depositor_name">Depositor name</string>
+    <string name="depositor_account">Depositor account number</string>
+    <string name="deposit_date">depositing Date</string>
+    <string name="request_details">Request details</string>
+    <string name="deposit_cash_to_bank">Bank deposit cash</string>
+    <string name="deposit_transfer_to_exchange">Deposit through ATM</string>
+    <string name="deposit_transfer_via_internet">Deposit through the Internet</string>
+    <string name="deposit_phone_to_phone">Phone Banking</string>
+    <string name="deposit_from_bank_to_bank">Transfer from another bank and outside the Kingdom</string>
+    <string name="choose_deposite_way">Select a deposit method</string>
+    <string name="banks_transfer_notes">You can buy the balance of choosing the way that suits you described here</string>
+    <string name="error_get_banks_list">Sorry error occurred while loading available bank accounts , please contact our Technical Support Department.</string>
+    <string name="banks_loading_info">Loading bank accounts menu</string>
+    <string name="no_banks_info">There is no information found about bank details.</string>
+    <string name="certified_banks_list">* A list of authorized banks </string>
+    <string name="choose_bank">Select bank</string>
+    <string name="deopost_to">Payment done to </string>
+    <string name="error_enter_requested_points">Please enter requested points</string>
+    <string name="error_deposite_value">Please enter total payment amount</string>
+    <string name="error_depositer_name">Payment done under name of :</string>
+    <string name="error_depositer_account">Payment done by account number: </string>
+    <string name="error_deposite_way">Please select way of payment</string>
+    <string name="error_deposite_date">Please enter payment date</string>
+    <string name="failed_send_request">Sorry failed to send your request, please try again.</string>
+    <string name="sending_request">Sending your request, please wait. </string>
+    <string name="success_send_request">Recharge request sent successfully.</string>
+    <string name="notes">Notes</string>
+    <string name="activate_email">Activate account</string>
+    <string name="activate_mobile">Activation screen</string>
+    <string name="activation_code">Please enter activation code sent to your mobile , your e-mail or both of them. </string>
+    <string name="add_sender_hint">Sender name must be 11 English letter or 15 number and cannot be in Arabic letters.
+        \n\n
+        In case of numeric sender name a message will be deducted from your credit.</string>
+    <string name="save">Save</string>
+    <string name="sender_list">Sender names list</string>
+    <string name="confirmation_mobile">Confirmation screen</string>
+    <string name="cofirm_email">Confirm Account</string>
+    <!-- sms archive -->
+    <string name="sms_archive">Sms archive</string>
+    <string name="sms_archive_title">Sender name:</string>
+    <string name="sms_archive_detais_points">Points num:</string>
+    <string name="sms_archive_detais_messagenumber">Message num:</string>
+    <string name="sms_archive_detais_numbers">Numbers:</string>
+    <string name="sms_archive_detais_messagescount">Num of messages:</string>
+    <string name="sms_archive_code_101"> Incompleted data </string>
+    <string name="sms_archive_code_102">Invalid user name </string>
+    <string name="sms_archive_code_103">Invalid password</string>
+    <string name="sms_archive_code_104">There is no credit in this account.</string>
+    <string name="sms_archive_code_111">Sending is closed.</string>
+    <string name="sms_archive_code_113">Account is not activated</string>
+    <string name="sms_archive_code_114">Account Suspended</string>
+    <string name="sms_archive_code_115"> Account Mobile is not activated </string>
+    <string name="sms_archive_code_116"> Account Mobile is not activated </string>
+    <string name="sms_archive_code_118">No result founed.</string>
+
+    <!-- login activity -->
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="login">Login</string>
+    <string name="new_user">Create new account!</string>
+    <string name="loginning">Login in progress </string>
+    <string name="error_username_incorect">Invalid user name</string>
+    <string name="error_password_incorrect">invalid password</string>
+    <string name="error_account_inactive">Your account is not activated. </string>
+    <string name="error_account_banned">This account is suspended.</string>
+    <string name="forget_password">Forget password!</string>
+    <string name="remember_me">Remember me</string>
+    <string name="enter_username_password">Please kindley fill your basic information here</string>
+    <string name="new_user_note">You do not have an account till now! You can register at this moment for</string>
+
+    <!-- Forget password activity -->
+    <string name="forget_passwordScreen_title">Password reset</string>
+    <string name="forget_passwordHint_text"> Activation code has been sent in massage .</string>
+    <string name="forget_passwordMobile_number">Enter your mobile number</string>
+    <string name="forget_passwordSend">Send password</string>
+    <string name="forget_password_select_method">Choose a method to verify</string>
+    <string name="forget_password_code_1">Success</string>
+    <string name="forget_activation_code_error">You have to enter the activation code</string>
+    <string name="forget_password_code_3">Email is not valid</string>
+    <string name="forget_password_code_4">No match user with passed email</string>
+    <string name="forget_password_code_5">User not active</string>
+    <string name="forget_password_code_6">You have to retry after X seconds</string>
+    <string name="forget_password_code_7">Mobile is not valid</string>
+    <string name="forget_password_code_8">No match user with passed mobile</string>
+    <string name="forget_password_code_9">Reset code invalid</string>
+
+    <!-- bank fragment -->
+    <string name="bank_paypal">Paypal</string>
+    <string name="bank_transfers">تحويلات البنوك</string>
+    <string name="bank_googel_wallet">Google</string>
+    <string name="payment_choose_packages">Chose the package required</string>
+    <string name="payment_choose_bank">Bank to be chosen for the deposit</string>
+    <string name="payment_choose_packages_pack_0_sms_number">No. of messages</string>
+    <string name="payment_choose_packages_pack_0_total_price">Total cost</string>
+    <string name="payment_choose_packages_pack_0_sms_price">Price per message</string>
+    <string name="payment_choose_packages_pack_1">الباقة الاولي</string>
+    <string name="payment_choose_packages_pack_2">الباقة الثانية</string>
+    <string name="payment_choose_packages_pack_3">الباقة الثالثة</string>
+    <string name="payment_choose_packages_pack_4">الباقة الرابعة</string>
+    <string name="payment_choose_bank_section_warning_title">Choose the bank that you want to deposit it to show you the bank information, and the amount transferred, and then clicking on the completion of payment.</string>
+    <string name="payment_bank_name">Bank</string>
+    <string name="payment_bank_acc_name">Account Name</string>
+    <string name="payment_bank_acc_number">Account Number</string>
+    <string name="payment_bank_iban_number">IBAN number</string>
+    <string name="payment_bank_address">Address</string>
+    <string name="payment_bank_deposite">Is payment done</string>
+    <string name="payment_bank_Ok_btn">Complete the payment</string>
+    <string name="payment_bank_spinner_default_txt">choose the bank</string>
+    <string name="payment_bank_packages_error">Please select the package</string>
+    <string name="payment_bank_spinner_error">Please select the bank</string>
+    <string name="payment_bank_is_payment_done">Please select, Is payment done</string>
+
+    <!-- change password dialog -->
+    <string name="change_password_title">Change password</string>
+    <string name="change_password_txt_info">Please type the old password and another for the new one</string>
+    <string name="change_password_old_password">Enter your old password</string>
+    <string name="change_password_new_password">Enter your new password</string>
+    <string name="change_password_confirm_password">Confirm password</string>
+    <string name="change_password_send_btn">Change password</string>
+    <string name="change_password_update_successful">Update successful</string>
+    <string name="change_password_update_failed">Update failed</string>
+    <string name="change_password_confirm_error">Confirm password error</string>
+    <string name="change_password_error_oldPassword">Error on old password</string>
+
+    <!-- registeration activity -->
+    <string name="full_name">Full name</string>
+    <string name="repeat_password">Re-Enter your password</string>
+    <string name="country">country</string>
+    <string name="mobile">Mobile number</string>
+    <string name="email">Enter your email</string>
+    <string name="register">Register</string>
+    <string name="choose_country">choose Country</string>
+    <string name="city">Region</string>
+    <string name="choose_cities">Select city</string>
+    <string name="error_full_name_required">Please Enter your full name</string>
+    <string name="error_username_length">User name length is must at lest 5 characters</string>
+    <string name="error_username_character">User name must be letters only without any space </string>
+    <string name="error_mobile_invalid">Please correct mobile number.</string>
+    <string name="error_password_length"> Please enter password don’t less than 6 letters.</string>
+    <string name="error_special_api">Please enter special api</string>
+    <string name="error_repeat_password"> Please re-enter password.</string>
+    <string name="error_email_address">Please correct your e-mail</string>
+    <string name="error_all_fiels_required">Please renter all fields.</string>
+    <string name="invalid_api">Invalide Special api</string>
+    <string name="error_username_registered">User name is already exist. </string>
+    <string name="request_register_new_user">Loading.....</string>
+    <string name="error_repeated_email">Sorry your e-mail address is already exist. </string>
+    <string name="error_repeated_mobile">Sorry your mobile number is already exist </string>
+    <string name="error_in_register_user"> Error while registering </string>
+
+    <!-- send sms activity -->
+    <string name="send_sms">Sending now</string>
+    <string name="sender_name">Sender Name</string>
+    <string name="balance">Balance:</string>
+    <string name="sender_names">Sender names</string>
+    <string name="send_groups">Send to groups</string>
+    <string name="phone_book">Browse phonebook</string>
+    <string name="choose_main_group">Select Groups and Numbers</string>
+    <string name="point">Point</string>
+    <string name="subgroup"> Sub-group</string>
+    <string name="error_no_subgroups">There is no Sub-groups inside this group.</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="numbers">Numbers</string>
+    <string name="msg_text">Message text...</string>
+    <string name="sending_time">Sending time</string>
+    <string name="messages_count">Messages number</string>
+    <string name="charachter_count">characters</string>
+    <string name="remaining_char">characters remain</string>
+    <string name="error_enter_message">Error has been occurred, please enter text message.</string>
+    <string name="error_empty_number">No numbers found to send SMS to.</string>
+    <string name="error_enter_sender_name">Please enter sender name.</string>
+    <string name="confirm_send_sms">Confirm sending this message</string>
+    <string name="processing_send_sms">Sending message </string>
+    <string name="report_numbers_count">Number of phone numbers sent:</string>
+    <string name="success_send_sms">Sent successfully</string>
+    <string name="total_points">Total points</string>
+    <string name="invalid_numbers">Invalid numbers</string>
+    <string name="repeated_numbers">Repeated numbers</string>
+    <string name="blocked_numbers">Blocked numbers</string>
+    <string name="close">Close</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="progress_loading_sub_groups">Uploading sub-groups </string>
+    <string name="charg">add balance</string>
+    <string name="sending_options">Sending Options</string>
+    <string name="send_to">Send to</string>
+    <string name="choose_sender_name">The sender name</string>
+    <string name="sms_details">Message details</string>
+    <string name="enter_others_numbers">Numbers... </string>
+    <string name="later">Later</string>
+    <string name="now">Now</string>
+    <string name="choose_sending_time">Choose sending time</string>
+    <string name="logout">logout</string>
+    <string name="hint_search_phone_book">Please use below search box to find requested names. </string>
+    <string name="names_menu_phone_book">Phone book Contacts Names</string>
+    <string name="select_all">Sellect all</string>
+    <string name="search_in_numbers">Search for name</string>
+    <string name="no_contacts">There is No Numbers </string>
+    <string name="back">Back</string>
+    <string name="progress_select_all_contacts">Selecting all names</string>
+    <string name="selected_contacts">Selected contacts </string>
+    <string name="show_selected">Show selected numbers</string>
+    <string name="show_all">Show All</string>
+    <string name="hint_no_numbers_ingroup">There is no numbers in this Group, so you can’t select it. </string>
+    <string name="done">Done</string>
+    <string name="countMessage">msgs count</string>
+    <string name="phone_book_contacts">PhoneBook</string>
+    <string name="send_sms_farorite_message_txt">Favorite messages</string>
+    <string name="send_sms_farorite_message_dialog_select_title">Select the favorite Message</string>
+    <string name="favouriteBtn">Add To Favourite</string>
+    <!-- select default sender name -->
+    <string name="select_default_title">Select default sender name</string>
+    <string name="select_default_title_send_btn">Save</string>
+    <string name="select_default_title_cancel_btn">Cancel</string>
+
+    <!-- menu names -->
+    <string name="creating_support">Technical Support Tickets</string>
+    <string name="new_ticket">New Tickets</string>
+    <string name="opened_tickets">Open Tickets</string>
+    <string name="closed_tickets">Close Tickets</string>
+    <string name="settings">Settings</string>
+    <string name="app_settings">App Settings</string>
+    <string name="admin_services"> Admin Panel</string>
+    <string name="activation_code_title">Activation codes</string>
+
+    <string-array name="side_menu">
+        <item>@string/send_sms</item>
+        <item>@string/sender_names</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <!-- confirm dialog -->
+    <string name="c_d_message_confirmation">Message confirmation</string>
+    <string name="c_d_message_confirmation_first_txt">Please be sure the numbers you want to send them messages</string>
+    <string name="c_d_message_confirmation_name_txt">Name:</string>
+    <string name="c_d_message">Message</string>
+    <string name="c_d_messages_number">Messages number</string>
+    <string name="c_d_groups">Groups</string>
+    <string name="c_d_phones">PhoneBook</string>
+    <string name="c_d_confirm_btn">Sending confimation</string>
+
+    <!-- remotly add sender -->
+    <string name="add_sender">Add sender</string>
+    <string name="add_sender_title">Add sender</string>
+    <string name="add_sender_user_name">User name</string>
+    <string name="add_sender_sendr_name">Sender name</string>
+    <string name="add_sender_add_btn">Add sender</string>
+    <string name="add_sender_empty_field_user_name">Please enter user name</string>
+    <string name="add_sender_empty_field_sender_name">Please enter sender name</string>
+    <string name="add_sender_title_txt">Please check user name and sender name also.</string>
+
+    <!-- remotly add charge -->
+    <string name="add_charge">Add charge</string>
+    <string name="add_charge_title">Add charge to customers</string>
+    <string name="add_charge_title_txt">Please check user name and number of points.</string>
+    <string name="add_charge_points">Points number</string>
+    <string name="add_charge_charge_btn">Charge</string>
+
+    <!-- add transfer -->
+    <string name="add_transfer">Transfer points</string>
+    <string name="add_transfer_title">Transfer points</string>
+    <string name="add_transfer_btn">Transfer points</string>
+
+    <!-- settings fragment -->
+    <string name="settings_page_title">Settings</string>
+    <string name="settings_page_title_txt">Here you will found your account details, credit, default sender name and you also can change application settings.</string>
+    <string name="special_api_title_txt">Request special api from 4jawaly support. </string>
+    <string name="settings_username_title">User name</string>
+    <string name="settings_user_email">E-mail </string>
+    <string name="settings_userpassword_title">Password</string>
+    <string name="settings_userpassword_txt">Change password</string>
+    <string name="special_api_hint">Special Api</string>
+    <string name="special_api_title">apiSjawaly</string>
+    <string name="settings_default_sender_txt">Edit default sender name</string>
+    <string name="settings_default_lng_txt">Edit default Language</string>
+    <string name="settings_language_title"> Selected Language</string>
+    <string name="settings_language_txt">Edit language</string>
+    <string name="settings_groups_select_title">Numbers</string>
+    <string name="settings_groups_select_txt">Edit numbers</string>
+    <string name="settings_groups_close_site_title">Close the web-site. </string>
+    <string name="settings_groups_close_site_txt">You can close it.</string>
+    <string name="settings_language_dialog_lang_txt">Language</string>
+    <string name="settings_close_site_code_104">Error while editing</string>
+    <string name="settings_close_site_code_105">Invalid requested code</string>
+    <string name="settings_close_site_code_106">Invalid request , site didn’t closed. </string>
+    <string name="settings_close_site_code_107">User name not found or this user don’t have the authority. </string>
+    <string name="settings_close_site_code_117">Website Opened successfully</string>
+    <string name="settings_close_site_code_118">Website Closed successfully</string>
+
+    <!-- create support -->
+    <string name="create_support_title">New technical support ticket</string>
+    <string name="create_support_title_txt"> Please write your issue and select the department.</string>
+    <string name="create_support_problem_title">Subject</string>
+    <string name="create_support_choose_section">Department</string>
+    <string name="create_support_problem_txt">Details</string>
+    <string name="create_support_send_btn">Creat New technical support ticket</string>
+    <string name="create_support_error_102">Incorrect user name or password</string>
+    <string name="create_support_error_103">Department not found</string>
+    <string name="create_support_error_104">Incorrect security code</string>
+    <string name="create_support_error_105">Ticket has been sent successfully.</string>
+    <string name="create_support_error_106">Error in department number.</string>
+    <string name="create_support_error_107">Error has been occurred while sending ticket.</string>
+    <string name="create_support_enter_title">Please enter ticket’s subject.</string>
+    <string name="create_support_enter_txt">Please enter your ticket details.</string>
+
+    <string-array name="foget_spinner">
+        <item>Mobile</item>
+        <item>Email</item>
+    </string-array>
+    <string-array name="foget_spinner_2">
+        <item>Email</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Header">
+        <item name="android:background">@drawable/header</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">30dp</item>
+        
+      
+    </style>
+    
+    <style name="packages_price_items">
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+    
+    <style name="Input">
+        <item name="android:background">@drawable/stroked_shape</item>
+        
+    </style>
+    
+    <!-- add palance edit text style -->
+    <style name="add_palance_edittext_style">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+</resources>

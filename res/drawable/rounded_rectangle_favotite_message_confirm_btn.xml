@@ -1,0 +1,15 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+         <gradient
+            android:endColor="@color/favorite_message_confirm_btn_color"
+            android:centerColor="@color/favorite_message_confirm_btn_color"
+            android:startColor="@color/favorite_message_confirm_btn_color"
+            android:angle="270" />
+        <corners
+            android:radius="7dp" />
+        <padding
+            android:left="10dp"
+            android:top="10dp"
+            android:right="10dp"
+            android:bottom="10dp" />
+        <stroke android:width="0dip" android:color="#000000" />
+</shape>

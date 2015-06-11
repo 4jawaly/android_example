@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <item android:drawable="@drawable/yes" android:state_checked="true" android:state_pressed="true"/>
+     <item android:drawable="@drawable/yes" android:state_checked="true" android:state_focused="false"/>
+    <item android:drawable="@drawable/no" android:state_checked="false" android:state_pressed="true"/>
+     <item android:drawable="@drawable/no" android:state_checked="false" android:state_focused="false"/>
+    
+  
+
+</selector>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/confirm_dialog_base_padding"
+    android:background="@color/layoutMainContainer" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <include
+                android:id="@+id/top_seperator"
+                layout="@layout/top_seperator" />
+
+            <RelativeLayout
+                android:id="@+id/confirm_dialog_messsge_confirmation_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_seperator"
+                android:background="@drawable/header" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_messsge_confirmation_txt"
+                    style="@style/Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/confirm_dialog_messsge_confirmation_image"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_message_confirmation"
+                    android:textSize="@dimen/app_base_text_size" />
+
+                <ImageView
+                    android:id="@+id/confirm_dialog_messsge_confirmation_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/confirm_dialog_messsge_confirmation_txt"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/confirm_dialog_messsge_confirmation_txt"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/header_ico" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/confirm_dialog_messsge_confirmation_layout"
+                android:background="@android:color/white"
+                android:padding="@dimen/confirm_dialog_base_padding" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_messsge_confirmation_one_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_message_confirmation_first_txt"
+                    android:textSize="@dimen/app_base_text_size" />
+
+                <RelativeLayout
+                    android:id="@+id/confirm_dialog_messsge_confirmation_two_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/confirm_dialog_messsge_confirmation_one_txt"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/rounded_rectangle"
+                    android:padding="@dimen/confirm_dialog_base_padding" >
+
+                    <TextView
+                        android:id="@+id/confirm_dialog_messsge_confirmation_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:gravity="right|center_vertical"
+                        android:padding="@dimen/base_textview_padding"
+                        android:text="@string/c_d_message_confirmation_name_txt"
+                        android:textSize="@dimen/app_base_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/confirm_dialog_messsge_confirmation_name_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/confirm_dialog_messsge_confirmation_name"
+                        android:padding="@dimen/base_textview_padding"
+                        android:textSize="@dimen/app_base_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/confirm_dialog_messsge_confirmation_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/confirm_dialog_messsge_confirmation_name"
+                        android:gravity="right|center_vertical"
+                        android:padding="@dimen/base_textview_padding"
+                        android:text="@string/c_d_message_confirmation_name_txt"
+                        android:textSize="@dimen/app_base_text_size" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/registration_items_top_margin" >
+
+            <include
+                android:id="@+id/top_seperator"
+                layout="@layout/top_seperator" />
+
+            <RelativeLayout
+                android:id="@+id/confirm_dialog_messsge_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_seperator"
+                android:background="@drawable/header" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_messsge_txt"
+                    style="@style/Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/confirm_dialog_messsge_image"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_message"
+                    android:textSize="@dimen/app_base_text_size" />
+
+                <ImageView
+                    android:id="@+id/confirm_dialog_messsge_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/confirm_dialog_messsge_txt"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/confirm_dialog_messsge_txt"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/header_ico" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/confirm_dialog_messsge_layout"
+                android:background="@android:color/white"
+                android:padding="@dimen/confirm_dialog_base_padding" >
+
+                <RelativeLayout
+                    android:id="@+id/confirm_dialog_messsge_two_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/rounded_rectangle_two"
+                    android:padding="@dimen/confirm_dialog_base_padding" >
+
+                    <TextView
+                        android:id="@+id/confirm_dialog_messsge_txt44"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right|center_vertical"
+                        android:padding="@dimen/base_textview_padding"
+                        android:text="@string/c_d_message_confirmation_name_txt"
+                        android:textSize="@dimen/app_base_text_size" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/confirm_dialog_hint_image_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/confirm_dialog_messages_numbers_tv1"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/confirm_dialog_messsge_two_txt"
+                    android:layout_marginTop="@dimen/registration_items_top_margin"
+                    android:src="@drawable/header_ico" />
+
+                <TextView
+                    android:id="@+id/confirm_dialog_messages_numbers_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/confirm_dialog_messsge_two_txt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="@dimen/registration_items_top_margin"
+                    android:layout_toLeftOf="@+id/confirm_dialog_hint_image_one"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_messages_number"
+                    android:textSize="@dimen/app_base_text_size" />
+
+                <TextView
+                    android:id="@+id/confirm_dialog_messages_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/confirm_dialog_messsge_two_txt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="@dimen/registration_items_top_margin"
+                    android:layout_toLeftOf="@+id/confirm_dialog_messages_numbers_tv1"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_messages_number"
+                    android:textColor="@color/confirm_dialog_messages_number_color"
+                    android:textSize="@dimen/app_base_text_size" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/registration_items_top_margin" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/registration_items_top_margin" >
+
+            <include
+                android:id="@+id/top_seperator"
+                layout="@layout/top_seperator" />
+
+            <RelativeLayout
+                android:id="@+id/confirm_dialog_messsge_layout_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top_seperator"
+                android:background="@drawable/header" >
+
+                <TextView
+                    android:id="@+id/confirm_dialog_phones_txt"
+                    style="@style/Header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/confirm_dialog_phones_image"
+                    android:padding="@dimen/base_textview_padding"
+                    android:text="@string/c_d_phones"
+                    android:textSize="@dimen/app_base_text_size" />
+
+                <ImageView
+                    android:id="@+id/confirm_dialog_phones_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/confirm_dialog_phones_txt"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/confirm_dialog_phones_txt"
+                    android:layout_marginRight="6dp"
+                    android:src="@drawable/header_ico" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/confirm_dialog_messsge_layout_three"
+                android:background="@android:color/white"
+                android:padding="@dimen/confirm_dialog_base_padding" >
+
+                <com.jawaly.customview.ExpandableHeightListView
+                    android:id="@+id/confirm_dialog_phones_lisrview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </com.jawaly.customview.ExpandableHeightListView>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/confirm_dialog_send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/registration_items_top_margin"
+            android:textColor="@android:color/white"
+            android:background="@drawable/rounded_rectangle_favotite_message_confirm_btn"
+            android:gravity="center"
+            android:text="@string/c_d_confirm_btn"
+            android:padding="@dimen/base_textview_padding"
+            android:textSize="@dimen/app_base_text_size" />
+    </LinearLayout>
+
+</ScrollView>

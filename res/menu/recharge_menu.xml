@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:compat="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/bank_info_item1"
+        android:title="@string/request_charge"
+        android:icon="@drawable/go_forward"
+        compat:showAsAction="ifRoom"  >
+    </item>
+
+</menu>

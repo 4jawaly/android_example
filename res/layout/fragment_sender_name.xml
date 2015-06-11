@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:layout_margin="8dp"
+        android:text="@string/sender_list" />
+
+    <View
+        android:id="@+id/redBullet"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/red_box" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/redBullet"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/redBullet"
+        android:text="@string/need_confirmation"
+        android:textSize="11sp" />
+
+    <View
+        android:id="@+id/yellowBullet"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:background="@drawable/yellow_box" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/yellowBullet"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/yellowBullet"
+        android:text="@string/waitng_acceptance"
+        android:textSize="11sp" />
+
+    <View
+        android:id="@+id/greenBullet"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignRight="@+id/redBullet"
+        android:layout_below="@+id/redBullet"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/green_box" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/greenBullet"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/greenBullet"
+        android:text="@string/accepted_sender_name"
+        android:textSize="11sp" />
+
+    <View
+        android:id="@+id/grayBullet"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignRight="@+id/yellowBullet"
+        android:layout_below="@+id/redBullet"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/textView4"
+        android:background="@drawable/bg_container" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/grayBullet"
+        android:layout_marginRight="2dp"
+        android:layout_toLeftOf="@+id/grayBullet"
+        android:text="@string/refused_sender"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:id="@+id/navBarContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greenBullet"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/allSendersBtn"
+            style="@style/TabBtnInactive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_senders" />
+
+        <Button
+            android:id="@+id/newSendersBtn"
+            style="@style/TabBtnActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_senders" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/navBarContainer"
+        android:layout_alignRight="@+id/navBarContainer"
+        android:layout_below="@+id/navBarContainer"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_container"
+        android:divider="@null"
+        android:dividerHeight="15dp"
+        android:padding="10dp" >
+    </ListView>
+
+</RelativeLayout>

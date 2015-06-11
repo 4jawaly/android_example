@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutMainContainer"
+    
+ >
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_container"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+  <View
+                android:id="@+id/topSperator"
+                style="@style/Sperator"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/activityTitle"
+                android:background="@drawable/header"
+        		android:textColor="@android:color/white"
+        		android:gravity="right|center_vertical"
+        		android:textStyle="bold"
+        
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/topSperator"
+                android:layout_marginBottom="4dp"
+                
+                android:padding="@dimen/confirm_dialog_base_padding"
+                android:textSize="@dimen/app_base_text_size"
+                android:text="@string/phone_book_contacts" />
+  
+    
+
+    <EditText
+        android:id="@+id/searchEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_container"
+        android:ems="10"
+        android:gravity="right|center_vertical"
+        android:hint="@string/search_in_numbers"
+        android:inputType="text"
+        android:padding="@dimen/confirm_dialog_base_padding"
+                android:textSize="@dimen/app_base_text_size"
+        android:layout_below="@+id/activityTitle" 
+        android:layout_margin="10dp"/>
+    <ListView
+        android:id="@+id/contactsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/checkBox1"
+        android:divider="@null"
+        android:dividerHeight="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="@dimen/list_margin" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/countSelectedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/checkBox1"
+        android:text="@string/select_all"
+        android:textStyle="bold" 
+        android:padding="@dimen/confirm_dialog_base_padding"
+        android:textSize="@dimen/app_base_text_size"
+        android:layout_below="@+id/searchEdit"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:layout_alignParentRight="true"
+        android:button="@drawable/custome_drawable_checkbox"
+        android:text="0"
+       	android:layout_alignTop="@+id/countSelectedTextView"
+        android:layout_alignBottom="@+id/countSelectedTextView"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/showSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactsListView"
+        android:layout_alignTop="@+id/selectOfTotalText"
+        android:layout_alignBottom="@+id/selectOfTotalText"
+        android:background="@drawable/bg_container"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/down" />
+
+    <TextView
+        android:id="@+id/selectOfTotalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/countSelectedTextView"
+        android:layout_toRightOf="@+id/showSelected"
+        android:gravity="center"
+        android:padding="@dimen/confirm_dialog_base_padding"
+        android:textSize="@dimen/app_base_text_size"
+        android:text="0" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchEdit"
+        android:layout_alignTop="@+id/searchEdit"
+        android:layout_alignBottom="@+id/searchEdit"
+        android:layout_margin="10dp"
+        android:src="@drawable/search" />
+
+</RelativeLayout>
+</LinearLayout>

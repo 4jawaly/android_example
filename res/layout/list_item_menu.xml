@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout 
+    android:id="@+id/drawable_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="20dp"
+    android:gravity="right"
+    android:layout_gravity="right"
+    android:background="@drawable/menu_list_selector">
+
+    <TextView
+        android:id="@+id/drawerListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="TextView" 
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:layout_marginRight="4dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/code_inactive" 
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"/>
+    
+    </LinearLayout>
+    
+<View 
+    android:id="@+id/my_divider"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#5a7eb0"/>
+
+<View 
+    android:id="@+id/my_divider2"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:background="#45638a"
+    android:visibility="gone"/>
+
+</LinearLayout>

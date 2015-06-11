@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp" >
+
+    <LinearLayout 
+        android:id="@+id/rwo_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/numbersTextView"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/report_numbers_count"
+        android:textSize="12sp"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <TextView
+        android:id="@+id/numbersValueTextView"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearance" />
+    
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:id="@+id/rwo_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rwo_one"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    
+        <TextView
+        android:id="@+id/messageCountTv"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/messages_count" />
+    
+    <TextView
+        android:id="@+id/messageCountValueTV"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="TextView" />
+    
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:id="@+id/rwo_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rwo_two"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/totalPointsLable"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/total_points" />
+
+
+
+    <TextView
+        android:id="@+id/totalPointsValue"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="TextView"
+         />
+
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:id="@+id/rwo_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rwo_three"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/invalidNumbersLable"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/invalid_numbers" />
+
+    <TextView
+        android:id="@+id/invalidNumbersValue"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="TextView" />
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:id="@+id/rwo_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rwo_four"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/repeatedNumbersTextView"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/repeated_numbers" />
+
+    <TextView
+        android:id="@+id/repeatedNumbersValue"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="TextView"/>
+    </LinearLayout>
+
+	<LinearLayout 
+	    android:id="@+id/rwo_six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rwo_five"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/blockedNumbersTextView"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="@string/blocked_numbers" />
+
+    <TextView
+        android:id="@+id/blockedNumbersValue"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="TextView"       />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/close" />
+
+</RelativeLayout>

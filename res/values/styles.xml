@@ -1,0 +1,196 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="Header">
+        <item name="android:background">@drawable/header</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">@dimen/app_base_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">30dp</item>
+    </style>
+
+    <style name="NewDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Sperator">
+        <item name="android:background">#4996CC</item>
+    </style>
+
+    <style name="LoginContainer">
+        <item name="android:height">149dp</item>
+        <item name="android:background">@drawable/bg_container</item>
+    </style>
+
+    <style name="Input">
+        <item name="android:background">@drawable/stroked_shape</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:height">40dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlueButton" parent="Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/blue_bg</item>
+        <item name="android:textSize">@dimen/app_base_text_size</item>
+    </style>
+
+    <style name="GrayButton" parent="Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/browse_phonebook_selected_image</item>
+    </style>
+
+    <style name="OrangeButton" parent="Button">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/orange_bg</item>
+    </style>
+
+    <style name="ForgetButton" parent="Button">
+        <item name="android:background">@drawable/stroked_shape</item>
+        <item name="android:width">148dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:textColor">#7b7b7b</item>
+    </style>
+
+    <style name="LoginRememberMe">
+        <item name="android:width">125dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:background">@drawable/stroked_shape</item>
+    </style>
+
+    <style name="MobileInput">
+        <item name="android:width">162dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:background">@drawable/stroked_shape</item>
+    </style>
+
+    <style name="CountryCodeInput">
+        <item name="android:width">73dp</item>
+        <item name="android:height">40dp</item>
+        <item name="android:background">@drawable/stroked_shape</item>
+    </style>
+
+    <style name="ReverseOrangButton">
+        <item name="android:textColor">#e19557</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/orange_stroked_shap</item>
+    </style>
+
+    <style name="CountryInput">
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="BalanceIcon">
+        <item name="android:width">60dp</item>
+        <item name="android:height">60dp</item>
+        <item name="android:background">@drawable/ic_balance</item>
+    </style>
+
+    <style name="BalanceText">
+        <item name="android:textColor">#7c7c7c</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="BalanceAmount">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/send_sms_fragment_credit_value</item>
+    </style>
+
+    <style name="RechargBtn" parent="Button">
+        <item name="android:background">@drawable/sendsms_selected_image</item>
+        <item name="android:width">150dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="RechargBtnIcon">
+        <item name="android:padding">17dp</item>
+    </style>
+
+    <style name="PhoneDirecteroySelectedNumbers">
+        <item name="android:textColor">#5D5D5D</item>
+        <item name="android:background">@drawable/white_strok_shape</item>
+    </style>
+
+    <style name="SmallSpinner">
+        <item name="android:background">@drawable/custom_drawable_spinner</item>
+        <item name="android:width">125dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+    <style name="MenuHeader">
+        <item name="android:background">#0093c6</item>
+        <item name="android:height">65dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <!-- senders fragment -->
+    <style name="TabBtn">
+        <item name="android:width">144dp</item>
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="TabBtnInactive" parent="TabBtn">
+        <item name="android:background">@color/inactive_gray</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- add palance edit text style -->
+    <style name="add_palance_edittext_style">
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="TabBtnActive" parent="TabBtn">
+        <item name="android:background">@color/active_gray</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AdminActivationcodeStyle">
+        <item name="android:textSize">@dimen/app_base_text_size</item>
+        <item name="android:padding">@dimen/confirm_dialog_base_padding</item>
+        <item name="android:background">@drawable/rounded_rectangle_light_gray</item>
+    </style>
+
+    <style name="AdminActivationcodeStyle_edittext">
+        <item name="android:textSize">@dimen/app_base_text_size</item>
+        <item name="android:padding">@dimen/confirm_dialog_base_padding</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:background">@drawable/rounded_rectangle_light_gray</item>
+    </style>
+
+    <style name="input_style">
+        <item name="android:background">@drawable/registration_background</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>

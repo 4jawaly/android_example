@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="confirm_dialog_solid_color">#f5f5f5</color>
+    <color name="confirm_dialog_messages_number_color">#32CD32</color>
+    <color name="favorite_message_color">#FFA500</color>
+    <color name="favorite_message_confirm_btn_color">#2f4f4f</color>
+    <color name="settings_sperator_color">#1E90FF</color>
+    <color name="change_password">#1E90FF</color>
+    <color name="change_password_selected">#20B2AA</color>
+    <color name="main_layout_inp_grey_color">#f5f5f5</color>
+    <color name="border_gray_color">#a5a5a5</color>
+    <!-- setting title color -->
+    <color name="settings_title_color">#1E90FF</color>
+    <color name="light_gray">#C0C0C0</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="ticket_yollow">#FFD700</color>
+    <color name="ticket_gray">#8f8d8d</color>
+    <color name="ticket_red">#cb4f4f</color>
+    <color name="ticket_green">#61a948</color>
+    <color name="swipe_color_1">#ff0000</color>
+    <color name="swipe_color_2">#FFD700</color>
+    <color name="swipe_color_3">#9ACD32</color>
+    <color name="swipe_color_4">#1E90FF</color>
+    <color name="green_color">#20af66</color>
+
+</resources>

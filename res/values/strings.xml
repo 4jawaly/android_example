@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">فورجوالي</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_no_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="error_site_closed">عفوا الموقع مغلق الان </string>
+    <string name="open_drawer">فتح القائمه</string>
+    <string name="close_drawer">غلق القائمه</string>
+    <string name="main_menu">القائمه الرئيسيه</string>
+    <string name="no_connection">ليس هناك اتصال بالانترنت</string>
+    <string name="failed_response_format">عذرا ، لم نتمكن من تلقي الاستجابه المطلوبه من الخادم .. نرجو مراسله الدعم </string>
+    <string name="send">ارسل</string>
+    <string name="settings">الاعدادات</string>
+    <string name="dialog_closed_by_admin_ok">موافق</string>
+    <string name="add_message_to_favorite_error_118">الرسالة فارغة</string>
+    <string name="add_message_to_favorite_error_119">فشل في اضافة الرسالة</string>
+    <string name="add_message_to_favorite_error_120">الرسالة مكررة</string>
+    <string name="add_message_to_favorite_error_117">الرسالة تم الاضافة بنجاح</string>
+    <string name="forget_activation_code_error">الرجاء ادخال كود التفعيل </string>
+    <string name="error_username_lang">من فضلك ادخل الاسم  باللغه الانجليزية و بدون مسافات </string>
+    <string name="error_sendername_lang">اسم المرسل يجب ان يكون 11 حرف انجليزي او 15 رقم ولا يمكن ان يكون بأحرف عربية فى حالة ارسال اسم مرسل رقم فسوف يتم خصم قيمة رسالة منك</string>
+    <string name="forget_password_code_1">تم ارسال الكود</string>
+    <string name="forget_password_code_2">نقص بالبيانات المبعوته</string>
+    <string name="forget_password_code_3">هذا البريد الالكتروني غير موجود</string>
+    <string name="forget_password_code_4">لا يوجد تطابق</string>
+    <string name="forget_password_code_5">المستخدم غير مفعل</string>
+    <string name="forget_password_code_6">انتظر بضع دقائق للمحاولة مره اخري</string>
+    <string name="forget_password_code_7">رقم الجوال غير موجود</string>
+    <string name="forget_password_code_8">لا يوجد تطابق</string>
+    <string name="forget_password_code_9">كود التفعيل غير صحيح</string>
+    <string name="error_app_msg">هناك خطاء يرجي التاكد</string>
+    <string name="success_app_msg">تم الحفظ بنجاح</string>
+
+    <string-array name="deposit_ways">
+        <item>@string/choose_deposite_way</item>
+        <item>@string/deposit_cash_to_bank</item>
+        <item>@string/deposit_transfer_to_exchange</item>
+        <item>@string/deposit_transfer_via_internet</item>
+        <item>@string/deposit_phone_to_phone</item>
+        <item>@string/deposit_from_bank_to_bank</item>
+    </string-array>
+    <string-array name="side_menu">
+        <item>@string/send_sms</item>
+        <item>@string/sender_names</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <array name="menu_icons">
+        <item>@drawable/ico_sendsms</item>
+        <item>@drawable/ico_member</item>
+        <item>@drawable/ico_settings</item>
+    </array>
+    <!-- colors -->
+    <color name="active_gray">#7c7c7c</color>
+    <color name="inactive_gray">#939393</color>
+    <color name="layoutMainContainer">#e2e2e2</color>
+
+    <!-- menu names -->
+    <string name="creating_support">تذاكر الدعم</string>
+    <string name="new_ticket">تذكرة جديدة</string>
+    <string name="opened_tickets">التذاكر المفتوحة</string>
+    <string name="closed_tickets">التذاكر المغلقة</string>
+
+    <!-- bank fragment -->
+    <string name="bank_paypal">Paypal</string>
+    <string name="bank_transfers">تحويلات البنوك</string>
+    <string name="bank_googel_wallet">جوجل</string>
+    <string name="payment_choose_methods">اختار طريقة الدفع</string>
+    <string name="payment_choose_packages">اختار الباقة المطلوبة</string>
+    <string name="payment_choose_bank">اختار البنك المراد للايداع</string>
+    <string name="payment_choose_packages_pack_0_sms_number">عدد الرسائل</string>
+    <string name="payment_choose_packages_pack_0_total_price">اجمالي التكلفة</string>
+    <string name="payment_choose_packages_pack_0_sms_price">سعر الرسالة</string>
+    <string name="payment_choose_packages_pack_1">الباقة الاولي</string>
+    <string name="payment_choose_packages_pack_2">الباقة الثانية</string>
+    <string name="payment_choose_packages_pack_3">الباقة الثالثة</string>
+    <string name="payment_choose_packages_pack_4">الباقة الرابعة</string>
+    <string name="payment_choose_bank_section_warning_title">اختر البنك الذي تريد الايداع عليه لتظهر لك معلومات البنك وقم بتحويل المبلغ ثم قم بالضغط على استكمال الدفع</string>
+    <string name="payment_bank_name">البنك</string>
+    <string name="payment_bank_acc_name">اسم الحساب</string>
+    <string name="payment_bank_acc_number">رقم الحساب</string>
+    <string name="payment_bank_iban_number">رقم IBAN</string>
+    <string name="payment_bank_address">العنوان</string>
+    <string name="payment_bank_deposite">هل تم الدفع</string>
+    <string name="payment_bank_Ok_btn">استكمال الدفع</string>
+    <string name="payment_bank_spinner_default_txt">اختار البنك</string>
+    <string name="payment_bank_packages_error">يرجي اختيار الباقة</string>
+    <string name="payment_bank_spinner_error">يرجي اختيار البنك</string>
+    <string name="payment_bank_is_payment_done">يرجي اختيار هل تم الدفع</string>
+
+    <!-- upload numbers -->
+    <string name="uplaod_numbers">رفع الأرقام</string>
+    <string name="uplaod_numbers_title">رفع الأرقام</string>
+    <string name="uplaod_numbers_progress_text">جاري تحميل الأرقام</string>
+    <string name="uplaod_numbers_text">عزيزي المستخدم يرجي النقر علي زر التحميل ادناه حتي نتمكن من تحميل جميع دليل الهاتف الخاص بكورفعها الي التطبيق</string>
+    <string name="uplaod_numbers_code_105">الارسال مغلق</string>
+    <string name="uplaod_numbers_code_106">الحساب غير مفعل</string>
+    <string name="uplaod_numbers_code_107">الحساب موقوف</string>
+    <string name="uplaod_numbers_code_108">غير مفعل جوال</string>
+    <string name="uplaod_numbers_code_109">غير مفعل بريد الكترونى</string>
+    <string name="uplaod_numbers_code_110">اسم المجموعة موجود</string>
+    <string name="uplaod_numbers_code_111">خطأ فى رقم المجموعة</string>
+    <string name="uplaod_numbers_code_112">تم انشاء المجموعة بنجاح</string>
+    <string name="uplaod_numbers_code_113">فشل فى انشاء المجموعة</string>
+    <string name="uplaod_numbers_numbers_code_113">تمت اضافة الرقم</string>
+    <string name="uplaod_numbers_successed">تمت اضافة الرقم بنجاح</string>
+    <string name="uplaod_numbers_missing">حدث خطء في رفع بعض الأرقام</string>
+
+    <!-- sms archive -->
+    <string name="sms_archive">ارشيف الرسائل</string>
+    <string name="sms_archive_title">اسم المرسل:</string>
+    <string name="sms_archive_detais_points">عدد النقاط</string>
+    <string name="sms_archive_detais_messagenumber">رقم الرسالة</string>
+    <string name="sms_archive_detais_numbers">الارقام</string>
+    <string name="sms_archive_detais_messagescount">عدد الرسائل</string>
+    <string name="sms_archive_code_101">البيانات ناقصة</string>
+    <string name="sms_archive_code_102">اسم المستخدم غير صحيح </string>
+    <string name="sms_archive_code_103">كلمة المرور غير صحيحة</string>
+    <string name="sms_archive_code_104">لا يوجد رصيد فى الحساب</string>
+    <string name="sms_archive_code_111">الارسال مغلق</string>
+    <string name="sms_archive_code_113">الحساب غير مفعل</string>
+    <string name="sms_archive_code_114">الحساب موقوف</string>
+    <string name="sms_archive_code_115">غير مفعل جوال</string>
+    <string name="sms_archive_code_116">غير مفعل جوال</string>
+    <string name="sms_archive_code_118">لم يتم الحصول على نتيجة</string>
+
+    <!-- login activity -->
+    <string name="user_name">اسم المستخدم</string>
+    <string name="password">كلمه المرور </string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="login">دخول</string>
+    <string name="new_user">مستخدم جديد</string>
+    <string name="loginning">جاري تسجيل الدخول </string>
+    <string name="error_username_incorect">اسم الدخول غير صحيح</string>
+    <string name="error_password_incorrect">خطأ كلمة المرور غير صحيحه</string>
+    <string name="error_account_inactive">حسابك غير مفعل </string>
+    <string name="error_account_banned">هذا الحساب موقوف </string>
+    <string name="forget_password">نسيت كلمه المرور</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="enter_username_password">يرجي ادخال اسم الدخول وكلمه المرور</string>
+    <string name="new_user_note">لا تملك حساب معنا حتي الان ..يمكن التسجيل معنا مجانا  </string>
+
+    <!-- Forget password activity -->
+    <string name="forget_passwordScreen_title">استرجاع كلمة المرور</string>
+    <string name="forget_passwordHint_text">عريزي المستخدم للحصول علي رمز التحقق الخاص بك يرجي التحقق من هاتفك المحمول</string>
+    <string name="forget_passwordMobile_number">رقم الهاتف المحمول</string>
+    <string name="forget_passwordSend">ارسال كلمة المرور</string>
+    <string name="forget_password_select_method">اختر طريقة التحقق</string>
+
+    <!-- change password dialog -->
+    <string name="change_password_title">تغير كلمة المرور</string>
+    <string name="change_password_txt_info">عزيزي المستخدم يرجي كتابة كلمة المرور القديمةالخاصة بك واخري جديدة</string>
+    <string name="change_password_old_password">كلمة المرور القديمة</string>
+    <string name="change_password_new_password">كلمة المرور الجديدة</string>
+    <string name="change_password_confirm_password">تاكيد كلمة المرور</string>
+    <string name="change_password_send_btn">تغيير كلمة المرور</string>
+    <string name="change_password_update_successful">تم التحديث بنجاح</string>
+    <string name="change_password_update_failed">فشل في التحديث</string>
+    <string name="change_password_confirm_error">خطاء في تاكيد كلمة المرور</string>
+    <string name="change_password_error_oldPassword">خطاء في كلمة المرور القديمة</string>
+
+    <!-- select default sender name -->
+    <string name="select_default_title">اختار اسم المرسل الافتراضي</string>
+    <string name="select_default_title_send_btn">حفظ</string>
+    <string name="select_default_title_cancel_btn">الغاء</string>
+
+    <!-- registeration activity -->
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="repeat_password">اعاده كلمه المرور</string>
+    <string name="country">الدوله</string>
+    <string name="mobile">رقم الجوال</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="register">تسجيل</string>
+    <string name="choose_country">اختر الدوله</string>
+    <string name="city">المدينه</string>
+    <string name="choose_cities">اختر المدينه</string>
+    <string name="error_full_name_required">من فضلك ادخل الاسم بالكامل</string>
+    <string name="error_username_length">من فضلك ادخل اسم الدخول لا يقل عن 5 حروف </string>
+    <string name="error_username_character">اسم الدخول يجب ان يكون حروف انجليزية فقط و _.- لا يحتوى على مسافات</string>
+    <string name="error_mobile_invalid">من فضلك ادخل الجوال بطريقه صحيحه </string>
+    <string name="error_password_length">من فضلك ادخل كلمة المرور لا تقل عن 6 احرف</string>
+    <string name="error_special_api">من فضلك ادخل special api</string>
+    <string name="error_repeat_password">اعادة كلمة المرور غير مطابقة لكلمة المرور</string>
+    <string name="error_email_address">من فضلك ادخل البريد الإلكترونى بطريقه صحيحه</string>
+    <string name="error_all_fiels_required">من فضلك ادخل كافة البيانات</string>
+    <string name="invalid_api">خطا فى  special api</string>
+    <string name="error_username_registered">اسم الدخول مسجل من قبل </string>
+    <string name="request_register_new_user">جارى التسجيل .....</string>
+    <string name="error_repeated_email">عفوا البريد الالكتروني مسجل سابقا</string>
+    <string name="error_repeated_mobile">عفوا رقم الجوال مسجل سابقا</string>
+    <string name="error_in_register_user">حدث خطأ اثناء الاشتراك </string>
+
+    <!-- settings fragment -->
+    <string name="settings_page_title">إعدادت الحساب</string>
+    <string name="settings_page_title_txt">عزيزي المستخدم وهنا سوف تجد معلومات حسابك من رصيد وحساب وبيانات المرسل ويمكن ايضا تغيير اعدادات التطبيق</string>
+    <string name="special_api_title_txt">يطلب من الدعم الفنى  special api</string>
+    <string name="settings_username_title">إسم المستخدم</string>
+    <string name="settings_user_email">البريد الالكتروني</string>
+    <string name="settings_userpassword_title">كلمة المرور</string>
+    <string name="settings_userpassword_txt">تغيير معلومات كلمة المرور</string>
+    <string name="special_api_hint">Special Api</string>
+    <string name="special_api_title">apiSjawaly</string>
+    <string name="settings_default_sender_txt">تغيير معلومات المرسل الافتراضي</string>
+    <string name="settings_language_title">خيارات اللغة</string>
+    <string name="settings_language_txt">تغيير معلومات خيارات اللغة</string>
+    <string name="settings_groups_select_title">إختار الارقام</string>
+    <string name="settings_groups_select_txt">تغيير معلومات خيارات الارقام</string>
+    <string name="settings_groups_close_site_title">إغلاق الموقع</string>
+    <string name="settings_groups_close_site_txt">يمكنك إغلاق الموقع</string>
+    <string name="settings_language_dialog_lang_txt">اللغة</string>
+    <string name="settings_close_site_code_104">لم يتم التنفيذ</string>
+    <string name="settings_close_site_code_105">كود الطلب غير صحيح</string>
+    <string name="settings_close_site_code_106">لم يتم التنفيذ</string>
+    <string name="settings_close_site_code_107">اسم المستخدم غير موجود او ان هذا المستخدم ليس له الصلاحية</string>
+    <string name="settings_close_site_code_117">تم فتح الموقع بنجاح</string>
+    <string name="settings_close_site_code_118">تم غلق الموقع بنجاح</string>
+
+    <!-- remotly add sender -->
+    <string name="add_sender">اضافة اسم مرسل</string>
+    <string name="add_sender_title">اضافة مرسل</string>
+    <string name="add_sender_user_name">اسم المستخدم</string>
+    <string name="add_sender_sendr_name">اسم المرسل</string>
+    <string name="add_sender_add_btn">اضافة اسم مرسل</string>
+    <string name="add_sender_empty_field_user_name">يرجي ادخال اسم المستخدم</string>
+    <string name="add_sender_empty_field_sender_name">يرجي ادخال اسم المرسل</string>
+    <string name="add_sender_title_txt">عزيزي المستخدم يرجي التأكد من اسم المستخدم و اسم المرسل</string>
+    <string name="add_sender_error_101">البيانات ناقصة</string>
+    <string name="add_sender_error_102">كود الحماية غير صحيح</string>
+    <string name="add_sender_error_103">كلمة المرور غير صحيحة</string>
+    <string name="add_sender_error_104">اسم المرسل غير صحيح السندر نام لابد و ان يكون 15 رقم او 11 حرف .-_ شاملا المسافات</string>
+    <string name="add_sender_error_105">كود الطلب غير صحيح</string>
+    <string name="add_sender_error_106">لم يتم التنفيذ</string>
+    <string name="add_sender_error_107">اسم المستخدم غير موجود او ان هذا المستخدم ليس لة صلاحية</string>
+    <string name="add_sender_error_108">اسم المرسل محجوب</string>
+    <string name="add_sender_error_109">اسم المرسل موجود من قبل وقد تم تفعيلة</string>
+    <string name="add_sender_error_117">تم اضافة اسم المرسل بنجاح</string>
+    <string name="add_sender_error_118">اسم المستخدم غير موجود</string>
+
+    <!-- remotly add charge -->
+    <string name="add_charge">أضافة شحن</string>
+    <string name="add_charge_title">شحن الرصيد للاعضاء</string>
+    <string name="add_charge_title_txt">عزيزي المستخدم يرجي التأكد من اسم المستخدم وعدد النقاط المحولة</string>
+    <string name="add_charge_points">عدد النقاط</string>
+    <string name="add_charge_charge_btn">شحن الرصيد</string>
+    <string name="add_charge_code_117">تم اضافة الرصيد بنجاح</string>
+
+    <!-- admin activation codes -->
+    <string name="activation_code_title">اكواد التفعيل</string>
+    <string name="protection_code">كود الحماية</string>
+    <string name="sender_name_code">كود اسم المرسل</string>
+    <string name="recharge_code">كود الشحن</string>
+    <string name="closing_code">كود الغلق</string>
+    <string name="confirm_btn_codex">تعيين كافتراضي</string>
+    <string name="save_done">تم الحفظ</string>
+
+    <!-- add transfer -->
+    <string name="add_transfer">تحويل رصيد</string>
+    <string name="add_transfer_title">تحويل رصيد</string>
+    <string name="add_transfer_btn">تحويل رصيد</string>
+    <string name="add_transfer_empty_points">يرجي ادخال عدد النقاط</string>
+    <string name="add_transfer_code_101">البيانات ناقصة</string>
+    <string name="add_transfer_code_102">اسم المستخدم غير صحيح</string>
+    <string name="add_transfer_code_103">كود الحماية غير صحيح</string>
+    <string name="add_transfer_code_104">لا يوجد رصيد في الحساب</string>
+    <string name="add_transfer_code_111">الارسال مغلق</string>
+    <string name="add_transfer_code_113">الحساب غير مفعل</string>
+    <string name="add_transfer_code_114">الحساب موقوف</string>
+    <string name="add_transfer_code_115">غير مفعل جوال</string>
+    <string name="add_transfer_code_116">غير مفعل بريد الكتروني</string>
+    <string name="add_transfer_code_117">تم تحول النقاط بنجاح</string>
+    <string name="add_transfer_code_118">لا توجد نقاط للتحويل</string>
+    <string name="add_transfer_code_119">غير مفعل بريد الكتروني</string>
+    <string name="add_transfer_code_120">لا يوجد عضو للتحويل له من فضلك اعد كتابة الاسم او الايمال او رقم الجوال</string>
+    <string name="add_transfer_code_121">رصيدك لا يكفي لاتمام العملية</string>
+    <string name="add_transfer_code_122">لا يمكنك التحويل لنفسك</string>
+    <string name="add_transfer_code_123">يوجد خطاء من فضلك حاول مره اخرى</string>
+
+    <!-- create support -->
+    <string name="create_support_title">إنشاء تذكرة دعم فني</string>
+    <string name="create_support_title_txt">عزيزي المستخدم يرجي كتابة مشكلتك وإختيار القسم المراد كتابة مشكلتك به</string>
+    <string name="create_support_problem_title">عنوان المشكله</string>
+    <string name="create_support_choose_section">إختيار القسم</string>
+    <string name="create_support_problem_txt">موضوع المشكلة</string>
+    <string name="create_support_send_btn">ارسال</string>
+    <string name="create_support_error_102">خطأ فى اسم المستخدم او كلمه المرور</string>
+    <string name="create_support_error_103">لا يوجد اقسام</string>
+    <string name="create_support_error_104">كود الحمايه غير صحيح</string>
+    <string name="create_support_error_105">تم ارسال التذكره بنجاح</string>
+    <string name="create_support_error_106">خطأ فى رقم القسم </string>
+    <string name="create_support_error_107">حدث خطأ اثناء ارسال التذكره </string>
+    <string name="create_support_enter_title">يرجي ادخال عنوان التذكرة</string>
+    <string name="create_support_enter_txt">يرجي ادخال نص التذكرة</string>
+
+    <!-- ticket_list -->
+    <string name="ticket_title">إسم المرسل:</string>
+
+    <!-- add palance -->
+    <string name="add_palance_title">بيانات العضو</string>
+    <string name="add_palance_deposite_data">بيانات الإيداع</string>
+    <string name="add_palance_deposite_value">قيمة الإيداع</string>
+    <string name="add_palance_depositer_name">إسم المودع</string>
+
+    <!-- activation activity -->
+    <string name="activate_mobile">شاشة التفعيل</string>
+    <string name="confirmation_mobile"> شاشة التحقق</string>
+    <string name="cofirm_email">ارسال</string>
+    <string name="activation_code">ادخل كود التحقق الذي تم ارساله الي جوالك او بريدك الالكتروني او كلايهما</string>
+    <string name="activate">تفعيل الحساب</string>
+    <string name="activate_email">تفعيل الحساب</string>
+    <string name="processing_activation">جارى التحقق من الكود</string>
+    <string name="your_activation_code_email">كود التحقق الخاص بالبريد الالكتروني</string>
+    <string name="invalid_mobile_activation_code">كود التفعيل غير صحيح</string>
+    <string name="success_mobile_activation">تم تفعيل الجوال بنجاح</string>
+    <string name="wait_loading_cities">جار تحميل المدن</string>
+    <string name="your_activation_code">كود  التفعيل </string>
+    <!-- send sms activity -->
+    <string name="send_sms">ارسال رساله</string>
+    <string name="sender_name">اسم المرسل</string>
+    <string name="balance">رصيدك الحالي</string>
+    <string name="sender_names">أسماء الإرسال</string>
+    <string name="send_groups">ارسال للمجموعات</string>
+    <string name="phone_book">دليل الهاتف</string>
+    <string name="choose_main_group">اختر المجموعات و الارقام</string>
+    <string name="point">نقطه</string>
+    <string name="subgroup">م.الفرعيه</string>
+    <string name="error_no_subgroups">لا يوجد مجموعات فرعيه داخل هذه المجموعه</string>
+    <string name="cancel">إلغاء</string>
+    <string name="select">اختار</string>
+    <string name="numbers">الآرقام</string>
+    <string name="msg_text">نص الرساله</string>
+    <string name="sending_time">وقت الارسال</string>
+    <string name="messages_count">عدد الرسائل </string>
+    <string name="charachter_count">عدد الاحرف</string>
+    <string name="remaining_char"> حرف متبقي</string>
+    <string name="error_enter_message">خطآ من فضلك ادخل نص الرساله</string>
+    <string name="error_empty_number">لا يوجد ارقام للارسال لها </string>
+    <string name="error_enter_sender_name">من فضلك ادخل اسم المرسل</string>
+    <string name="confirm_send_sms">هل انت متآكد من ارسال الرساله؟</string>
+    <string name="processing_send_sms">جاري ارسال الرساله </string>
+    <string name="report_numbers_count">عدد الارقام المرسله:</string>
+    <string name="success_send_sms"> تم الارسال بنجاح</string>
+    <string name="total_points">مجموع النقاط</string>
+    <string name="invalid_numbers">الآرقام الغير صالحه</string>
+    <string name="repeated_numbers">الآرقام المتكرره</string>
+    <string name="blocked_numbers">الآرقام المحجوبه</string>
+    <string name="close">اغلاق</string>
+    <string name="yes"> نعم</string>
+    <string name="no">لا</string>
+    <string name="progress_loading_sub_groups">جاري تحميل المجموعات الفرعيه </string>
+    <string name="charg">شحن الرصيد</string>
+    <string name="sending_options">خيارات الارسال</string>
+    <string name="send_to">الارسال الي</string>
+    <string name="choose_sender_name">اختر اسم المرسل</string>
+    <string name="sms_details">تفاصيل الرساله</string>
+    <string name="enter_others_numbers">ارسل الي ارقام اخري</string>
+    <string name="later">لاحقا</string>
+    <string name="now">الان</string>
+    <string name="choose_sending_time">اختر وقت الارسال</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="hint_search_phone_book">يرجي استخدام مربع البحث التالي للحصو ل علي الاسماء المطلوبه </string>
+    <string name="names_menu_phone_book">قائمه الاسماء في دليل الهاتف</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="search_in_numbers">بحث في الاسماء </string>
+    <string name="no_contacts">لا يوجد ارقام</string>
+    <string name="back">عوده</string>
+    <string name="progress_select_all_contacts">جاري اختيار كل الاسماء</string>
+    <string name="selected_contacts">الارقام التي تم اختيارها </string>
+    <string name="show_selected">عرض الارقام المحدده</string>
+    <string name="show_all">عرض الكل</string>
+    <string name="hint_no_numbers_ingroup">لا يوجد ارقام في المجموعه لذلك لا يمكنكس اختيار المجموعه  </string>
+    <string name="done">تم</string>
+    <string name="countMessage">عدد الرسائل</string>
+    <string name="phone_book_contacts">قائمه الاسماء في دليل الهاتف </string>
+    <string name="send_sms_farorite_message_txt">الرسائل المفضله</string>
+    <string name="send_sms_farorite_message_dialog_select_title">اختار الرسالة المفضلة</string>
+    <string name="favouriteBtn">أضف الرسالة للمفضلة</string>
+    <!-- confirm dialog -->
+    <string name="c_d_message_confirmation">تاكيد الارسال</string>
+    <string name="c_d_message_confirmation_first_txt">عزيزي المستخدم يرجي التاكد من الأرقام التي تريد أن ترسل لهم الرسائل</string>
+    <string name="c_d_message_confirmation_name_txt">الاسم:</string>
+    <string name="c_d_message">الرسالة</string>
+    <string name="c_d_messages_number">عدد الرسالة</string>
+    <string name="c_d_groups">المجموعات</string>
+    <string name="c_d_phones">دليل الهواتف</string>
+    <string name="c_d_confirm_btn">تاكيد الأرسال</string>
+
+    <!-- recharge requestrequest recharge -->
+    <string name="request_recharge"> شحن الرصيد </string>
+    <string name="points_requested">النقاط المطلوبه</string>
+    <string name="are_amount_deposited">هل قمت بالايداع؟</string>
+    <string name="send_request">ارسل الطلب</string>
+    <string name="deposit_details">تفاصيل الايداع</string>
+    <string name="deposit_amount">قيمه الايداع</string>
+    <string name="depositor_name">اسم المودع</string>
+    <string name="depositor_account">رقم حساب المودع</string>
+    <string name="deposit_date">تاريخ الايداع</string>
+    <string name="request_details">تفاصيل الطلب</string>
+    <string name="deposit_cash_to_bank">إيداع نقدى بالبنك</string>
+    <string name="deposit_transfer_to_exchange">تحويل عن طريق صراف</string>
+    <string name="deposit_transfer_via_internet">تحويل عن طريق انترنت</string>
+    <string name="deposit_phone_to_phone"> الهاتف المصرفى</string>
+    <string name="deposit_from_bank_to_bank">تحويل من بنك آخر و خارج المملكة</string>
+    <string name="choose_deposite_way">اختر طريقه الايداع</string>
+    <string name="banks_transfer_notes">يمكنك شراء رصيد باختيارك الطريقه التي تناسبك الموضحة هنا</string>
+    <string name="error_get_banks_list">عذرا .. فشل في العثور علي قاءمه البنوك .. من فضلك قم بالتحدث مع الدعم الفني </string>
+    <string name="banks_loading_info">جاري تحميل قائمه البنوك</string>
+    <string name="no_banks_info">لم يتم العثور عن  معلومات عن حسابات البنوك</string>
+    <string name="certified_banks_list">* قائمه البنوك المعتمده</string>
+    <string name="choose_bank">اختر البنك</string>
+    <string name="deopost_to">تم الايداع الي </string>
+    <string name="error_enter_requested_points">من فضلك ادخل النقاط المطلوبه</string>
+    <string name="error_deposite_value">من فضلك ادخل قيمه الايداع</string>
+    <string name="error_depositer_name">من فضلك ادخل اسم المودع</string>
+    <string name="error_depositer_account">من فضلك ادخل رقم حساب المودع</string>
+    <string name="error_deposite_way">من فضلك اختر طريقه الايداع</string>
+    <string name="error_deposite_date">من فضلك ادخل تاريخ الايداع</string>
+    <string name="failed_send_request">عذرا، فشل في ارسال الطلب، خطآ غير متوقع</string>
+    <string name="sending_request">جار ارسال الطلب. برجاء الانتظار قليلا </string>
+    <string name="success_send_request">تم ارسال طلب الشحن بنجاح </string>
+
+    <!-- sender names -->
+
+    <string name="add_sender_hint">اسم المرسل يجب ان لا يزيد عن 11 حرف انجليزي او 15 رقم ولا يمكن ان يكون بأحرف عربية 
+        \n\n
+        فى حالة ارسال اسم مرسل رقم فسوف يتم خصم قيمة رسالة من رصيدك وذلك لارسال كود التحقق من اسم المرسل علي جوالك</string>
+    <string name="save">حفظ</string>
+    <string name="sender_list">قائمه الاسماء</string>
+    <string name="new_senders">الاسماء الجديده</string>
+    <string name="all_senders">كل الاسماء</string>
+    <string name="accepted_sender_name">اسم مرسل مفعل</string>
+    <string name="need_confirmation">اسم مرسل يحتاج الي تآكيد</string>
+    <string name="waitng_acceptance">في انتظار تفعيل اسم المرسل</string>
+    <string name="refused_sender">اسم مرسل مرفوض</string>
+    <string name="plz_enter_sender_name">من فضلك ادخل اسم المرسل</string>
+    <string name="process_sending_request">جاري ارسال الطلب </string>
+    <string name="failed_add_sender_connection">عذرا ، فشل في ارسال طلب المرسل - تحقق من اتصالك بالشبكه او اعد المحاوله لاحقا </string>
+    <string name="failed_add_sender_service_reply">عذرا ، لم يتم اضافه اسم المرسل للسبب التالي :</string>
+    <string name="no_sender_names">لا يوجد اسماء ارسال</string>
+    <string name="loading_all_senders">جاري تحميل قائمه اسماء الارسال</string>
+    <string name="confirm">تآكيد </string>
+    <string name="confirm_sender_text">ادخل كود التجقق الذي نم ارساله علي هذا الرقم </string>
+    <string name="plz_enter_confirmation_code">من فضبك ادخل كود التحقق</string>
+    <string name="failed_activate_sender_name"> عذرا ، فشل في تفعيل اسم المرسل ؛</string>
+    <string name="sending_confirmation_code">بوجاء الانتظار ... جاري التخقق من الكود</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- single ticket -->
+    <string name="Single_ticket_title">تفاصيل التذكرة</string>
+    <string name="Single_ticket_type">تم الرد من موظف الدعم</string>
+    <string name="Single_ticket_type_new">تذكره جديده</string>
+    <string name="Single_ticket_type_not_replayed">لم يتم الرد من موظف الدعم</string>
+    <string name="Single_ticket_close_ticket">إغلاق التذاكرة</string>
+    <string name="Single_ticket_closed_ticket">التذاكرة مغلقه</string>
+    <string name="Single_ticket_add_replay">إضافه رد جديد</string>
+    <string name="dialo_add_comment_title">إضافه تعليق</string>
+    <string name="dialo_add_comment_title_txt">إضافه تعليقك هنا</string>
+    <string name="dialo_add_comment_message">التعليق</string>
+    <string name="dialo_add_comment_btn">ارسال</string>
+    <string name="dialo_add_comment_confirm_add_message">يرجي اضافه تعليق</string>
+    <string name="dialog_add_comment_105">تم ارسال الرد بنجاح </string>
+    <string name="dialog_add_comment_106">رقم التذكره غير صحيح</string>
+    <string name="dialog_add_comment_107">"التذكره مغلقه لا يمكنك ارسال اى ردود</string>
+    <string name="dialog_add_comment_108">حدث خطأ أثناء ارسال الرد</string>
+    <string name="Single_ticket_close_105">تم التحديث بنجاح</string>
+    <string name="Single_ticket_close_106">رقم التذكره غير صحيح</string>
+    <string name="Single_ticket_close_107">ترقم التذكره غير صحيح</string>
+
+    <string-array name="foget_spinner">
+        <item>رقم الجوال</item>
+        <item>البريد الالكتروني</item>
+    </string-array>
+    <string-array name="foget_spinner_2">
+        <item>البريد الالكتروني</item>
+    </string-array>
+
+</resources>

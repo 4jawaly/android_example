@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/light_orang" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+   		android:background="@drawable/custome_drawable_checkbox"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+  />
+
+    <TextView
+        android:id="@+id/phoneBookStatsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/checkBox1"
+        android:textColor="#000000"
+        android:gravity="left|center_vertical"
+        
+        android:paddingLeft="@dimen/confirm_dialog_base_padding"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneBookStatsTextView"
+        android:layout_alignRight="@+id/phoneBookStatsTextView"
+        android:layout_alignLeft="@+id/phoneBookStatsTextView"
+        android:text="@string/mobile"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:paddingLeft="@dimen/confirm_dialog_base_padding"/>
+
+</RelativeLayout>

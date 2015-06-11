@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:padding="8dp"
+         android:background="#e2e2e2">
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+   android:paddingBottom="18dp"
+   android:background="@drawable/bg_container"
+    >
+    <include 
+       android:id="@+id/topSperator" 
+        layout="@layout/top_seperator"/>
+
+    <TextView
+        android:id="@+id/addSenderTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      	android:layout_below="@+id/topSperator"
+        android:text="@string/add_sender"
+        style="@style/Header" 
+        
+        android:padding="@dimen/base_textview_padding"
+        android:layout_toRightOf="@+id/imageView1"/>
+
+    <TextView
+        android:id="@+id/addSenderHintTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/addSenderTitleTV"
+        android:layout_marginTop="18dp"
+        android:text="@string/add_sender_hint"
+        android:gravity="right"
+     
+        android:padding="8dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/senderNameET"
+        android:layout_centerHorizontal="true"
+        android:text="@string/save"
+        style="@style/BlueButton"
+        android:layout_margin="10dp"
+        
+         />
+
+    <EditText
+        android:id="@+id/senderNameET"
+        style="@style/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@+id/addSenderHintTV"
+        android:layout_margin="10dp"
+        android:ems="10"
+        
+        android:hint="@string/sender_name"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/addSenderTitleTV"
+        android:layout_alignBottom="@+id/addSenderTitleTV"
+        android:src="@drawable/sender_form"
+        android:background="@drawable/header" />
+
+</RelativeLayout>
+</ScrollView>
