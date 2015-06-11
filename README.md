@@ -1,2 +1,4 @@
-# android-api-example
+
+# android_example
+
 this is an example showing how to use 4jawaly sms service with an android application 
